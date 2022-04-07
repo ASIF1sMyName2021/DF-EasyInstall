@@ -55,7 +55,7 @@ apt install libsdl1.2debian libgtk2.0-0 libsdl-image1.2 libglu1-mesa libsdl-ttf2
 mv ~/DF/df ~/DF/dwarf
 
 # Add dwarf to PATH variable
-\cp files/environment ~/etc/
+\cp files/environment /etc/
 
 # Clear the terminal
 clear
