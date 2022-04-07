@@ -20,7 +20,7 @@ apt install wget -y
 clear
 
 # Install box64
-apt install gnupg
+apt install gnupg -y
 wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list
 wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | apt-key add -
 
