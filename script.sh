@@ -58,5 +58,5 @@ clear
 printf "\e[1;31m ◆◆ Dwarf Fortress Installed ◆◆ \e[0m\n"
 printf "\e[1;31m ------------------------------ \e[0m\n"
 printf "\e[1;32m    Start DF to check it out! \e[0m\n"
-printf ""
+printf "\n"
 
