@@ -11,12 +11,12 @@ printf "\e[1;32m └────────────────────
 printf ""
 
 # Update repository
-apt update && apt upgrade
+apt update && apt upgrade -y
 clear
 
 # Install Wget
 printf "Installing wget...\n\n"
-apt install wget
+apt install wget -y
 clear
 
 # Install box64
@@ -29,7 +29,7 @@ wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | apt-key add -
 apt update
 clear
 printf "Installing box64...\n\n"
-apt install box64
+apt install box64 -y
 clear
 
 # Download Dwarf Fortress
