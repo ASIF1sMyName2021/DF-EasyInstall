@@ -54,6 +54,9 @@ apt install libsdl1.2debian libgtk2.0-0 libsdl-image1.2 libglu1-mesa libsdl-ttf2
 # Change "df" to "dwarf"
 mv ~/DF/df ~/DF/dwarf
 
+# Hide the DF directory
+mv ~/DF ~/.DF
+
 # Add dwarf to PATH variable
 \cp files/environment /etc/
 
