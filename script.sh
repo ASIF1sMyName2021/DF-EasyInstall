@@ -49,7 +49,7 @@ mv DF ~
 \cp files/init.txt ~/DF/data/init/
 
 # Install DF dependencies
-apt install libsdl1.2debian libgtk2.0-0 libsdl-image1.2 libglu1-mesa libsdl-ttf2.0-0 libopenal-dev libsndfile1-dev libncursesw5
+apt install libsdl1.2debian libgtk2.0-0 libsdl-image1.2 libglu1-mesa libsdl-ttf2.0-0 libopenal-dev libsndfile1-dev libncursesw5 -y
 
 # Change "df" to "dwarf"
 mv ~/DF/df ~/DF/dwarf
